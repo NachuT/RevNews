@@ -26,3 +26,5 @@ The problem with this idea in the 21st century however is that the news has beco
 Essentially all of your read info and AI usage info is stored in the Prisma Database for access and cross compatibility. For the news feed the Brave API is called and the attributes that are recieved in JSON format are re-formatted to the theme of the UI. Then for the feed focus feature it uses first an LLM to take your prompt and convert it into a prompt that is guarenteed to fetch the news that you want and from there it runs that new prompt through the Brave API to give the news you want. The AI analysis feature first the LLM analyzes the article at hand and uses the Brave News Search API to look for more similar articles and analyzes those through an LLM as well before concluding and placing final results. Lastly, the AI assistant works by first using an LLM decode the prompt for the specific time period and topic they are asking for then runs that prompt it generated through the Brave API to recieve valid sources and then the LLM runs through these sources to formulate an answer to your question
 
 ## Demo link:
+
+https://youtu.be/zTdIJk2Sj9s
